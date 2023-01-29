@@ -1,0 +1,2 @@
+# Rust_Training
+LeetCodeの問題とかをRustで解いたコードを残す
