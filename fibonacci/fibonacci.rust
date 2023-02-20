@@ -1,18 +1,14 @@
-fn fibonacci(n: i32) -> i32 {
+fn fibonacci(n: u64) -> u64 {
     if n == 0 {
         return 0;
-    } else if n == 1 {
-        return 1;
-    } else {
-        return fibonacci(n - 1) + fibonacci(n - 2);
     }
-}
-
-fn fibonacci_sequence(count: i32) -> Vec<i32> {
-    let mut sequence = Vec::new();
-    for i in 0..count {
-        sequence.push(fibonacci(i));
+    let mut a = 0;
+    let mut b = 1;
+    for _ in 1..n {
+        let c = a + b;
+        a = b;
+        b = c;
     }
-    sequence
+    return b;
 }
 
