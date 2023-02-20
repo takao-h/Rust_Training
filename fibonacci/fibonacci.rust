@@ -1,0 +1,18 @@
+fn fibonacci(n: i32) -> i32 {
+    if n == 0 {
+        return 0;
+    } else if n == 1 {
+        return 1;
+    } else {
+        return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+}
+
+fn fibonacci_sequence(count: i32) -> Vec<i32> {
+    let mut sequence = Vec::new();
+    for i in 0..count {
+        sequence.push(fibonacci(i));
+    }
+    sequence
+}
+
