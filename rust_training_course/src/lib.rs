@@ -1,0 +1,10 @@
+pub mod lesson1_basics;
+pub mod lesson2_types_control_flow;
+pub mod lesson3_ownership_borrowing;
+pub mod lesson4_structs_enums;
+pub mod lesson5_methods;
+pub mod lesson6_collections;
+pub mod lesson7_error_handling;
+pub mod lesson8_traits;
+pub mod lesson9_generics;
+pub mod lesson10_modules;
