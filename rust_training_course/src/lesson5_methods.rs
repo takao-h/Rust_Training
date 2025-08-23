@@ -11,19 +11,16 @@ pub struct User {
 impl User {
     // 関連関数 (コンストラクタのようなもの)
     pub fn new(id: u32, name: String, email: String) -> User {
-        // ここを実装してください
-        User { id, name, email, active: true }
+        unimplemented!()
     }
 
     // メソッド
     pub fn deactivate(&mut self) {
-        // ここを実装してください
-        self.active = false;
+        unimplemented!()
     }
 
     // メソッド
     pub fn full_name(&self) -> String {
-        // ここを実装してください
-        format!("{} ({})", self.name, self.email)
+        unimplemented!()
     }
 }

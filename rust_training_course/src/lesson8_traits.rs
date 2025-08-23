@@ -13,8 +13,7 @@ pub struct NewsArticle {
 
 impl Summarizable for NewsArticle {
     fn summary(&self) -> String {
-        // ここを実装してください
-        format!("{}, by {} ({})", self.headline, self.author, self.location)
+        unimplemented!()
     }
 }
 
@@ -27,7 +26,6 @@ pub struct Tweet {
 
 impl Summarizable for Tweet {
     fn summary(&self) -> String {
-        // ここを実装してください
-        format!("{}: {}", self.username, self.content)
+        unimplemented!()
     }
 }

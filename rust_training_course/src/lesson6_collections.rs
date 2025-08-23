@@ -3,11 +3,9 @@
 use std::collections::HashMap;
 
 pub fn sum_vector(numbers: Vec<i32>) -> i32 {
-    // ここを実装してください
-    0
+    unimplemented!()
 }
 
 pub fn count_word_occurrences(words: &[&str]) -> HashMap<String, u32> {
-    // ここを実装してください
-    HashMap::new()
+    unimplemented!()
 }
